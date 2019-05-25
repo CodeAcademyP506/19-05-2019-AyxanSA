@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain{
+    width: 80%;
+    height: 100%;
+    margin: 0 10%;
+
+}
+#header{
+    height: 70px;
+    border: 1px solid black;
+    background-color:  rgb(100,27,131);
+}
+
+#header .headerBox{
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+}
+#header .brandNav{
+    display: flex;
+}
+#header .contain .headerBox .brandNav h3{
+    color: white;
+}
+
+#header .brandNav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+#header .brandNav ul li{
+    margin-left: 20px;
+}
+
+#header .brandNav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#header .pricingContact ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+
+#header .pricingContact ul li{
+    margin: 0 20px;
+}
+
+#header .pricingContact ul li a{
+    text-decoration: none;
+    color: white;
+}
+#header .pricingContact ul .con{
+    border: 1px solid red;
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 5px; 
+}
+
+
+#main{
+    width: 70%;
+    height: 1000px;
+    background-color: rgb(100,27,131);
+border-bottom-right-radius: 200px; 
+}
+
+#text{
+    text-align: center;
+    width: 40%;
+    padding-top:20%;
+    margin-left:15%;  
+    color: white;
+}
+
+.get{
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 5px; 
+}
+.get h3{
+    text-align: center;
+    margin-top: 10px;
+}
